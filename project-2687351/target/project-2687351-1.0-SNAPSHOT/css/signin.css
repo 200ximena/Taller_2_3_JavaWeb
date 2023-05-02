@@ -1,0 +1,41 @@
+html,
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#register {
+    padding: 1.5rem;
+}
+
+/* navbar*/
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+
+.formulario{
+    padding: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: 100px 200px;
+    background: antiquewhite;
+    border-radius: 20px;
+}
